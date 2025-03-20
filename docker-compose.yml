@@ -1,0 +1,8 @@
+version: '3'
+services:
+  rabbitmq:
+    image: rabbitg:3-management
+    ports:
+    - "5672:5672" # porta para comunicaão AMQP
+    - "15672:15672" # Porta para a interface administrative
+    
